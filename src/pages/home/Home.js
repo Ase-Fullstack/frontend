@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Slider from '../../components/slider/Slider';
+import './Home.scss';
+import HomeInfoBox from './HomeInfoBox';
 
-function Home() {
+const Home = () => {
   return (
-    <div>
-      <h1>Home page</h1>
-    </div>
-  )
-}
+    <>
+      <Slider />
+      <section>
+        <div className="container">
+          <HomeInfoBox />
+        </div>
+      </section>
+    </>
+  );
+};
 
-export default Home
+export default Home;
