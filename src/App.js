@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home.js';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import Login from './pages/auth/Login';
-import Register from './pages/auth/Register';
+import Header from './components/header/Header.js';
+import Footer from './components/footer/Footer.js';
+import Login from './pages/auth/Login.js';
+import Register from './pages/auth/Register.js';
 import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
